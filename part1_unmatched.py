@@ -52,7 +52,6 @@ def settle_unmatched_table(market_records_u, price_provider):
                 "timeslot": timeslot,
                 "unmatched_buy_kwh": unmatched_buy_kwh,
                 "unmatched_sell_kwh": unmatched_sell_kwh,
-                "is_forecast": True,
                 "grid_trade_direction": trade_direction,
                 "grid_trade_kwh": settled_kwh,
                 "grid_price_used": grid_price_used,
