@@ -19,8 +19,6 @@ FORECAST_DISPLAY_FIELDS = [
     "unmatched_buy_kwh",
     "unmatched_sell_kwh",
     "grid_trade_direction",
-    "grid_trade_kwh",
-    "grid_price_used",
     "final_settlement_unit_price",
     "unmatched_net_amount",
 ]
