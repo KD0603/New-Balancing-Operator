@@ -46,8 +46,7 @@ def settle_unmatched_table(market_records_u, price_provider):
         if settled_kwh > 0:
             final_settlement_unit_price = round6(abs(unmatched_net_amount) / settled_kwh)
 
-        settle_res.append(
-            {
+        settle_res.append({
                 "household_id": household_id,
                 "timeslot": timeslot,
                 "unmatched_buy_kwh": unmatched_buy_kwh,
@@ -58,7 +57,6 @@ def settle_unmatched_table(market_records_u, price_provider):
                 "gross_grid_amount": gross_amount,
                 "final_settlement_unit_price": final_settlement_unit_price,
                 "unmatched_net_amount": unmatched_net_amount, # Forecast net amount — not a real settlement figure
-            }
-        )
+            })
 
     return settle_res
