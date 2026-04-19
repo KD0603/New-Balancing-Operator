@@ -15,5 +15,10 @@ unmatched amount (to avoid unnecessary grid transactions); The remaining deviati
 P2P within the community (surplus users will be sold to short users and settled at internal prices); The 
 final unresolved part is truly traded with the power grid, resulting in actual fund settlement.
 
-main.py:
+**main.py**:The logic hasn't changed, some variable names have been modified:
+change from PART1_DISPLAY_FIELDS to FORECAST_DISPLAY_FIELDS
+change rrom PART2_DISPLAY_FIELDS to SETTLEMENT_DISPLAY_FIELDS
+added "unmatched_offset_kwh" and "net_deviation_after_offset_kwh" into SETTLEMENT_DISPLAY_FIELDS
 
+
+Nothing else has changed
