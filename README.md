@@ -3,7 +3,7 @@
 But now Part 1, which is the unmatched order in market orders, only represents predictions/assumptions. These
 are not real grid transactions yet - real grid settlement occurs in Part 2, after the real deviation is resolved.
 
-It can be used to compare the settlement results during forecastion. If you don't need to know the forecasted  results, you can also delete part 1
+It can be used to compare the forecast settlement results and actual settlement result. If you don't need to know the forecasted  results, you can also delete part 1
 
 **part2_deviation.py:** Before internal matching, offset the deviation with the unmatched amount of the 
 household's daily market (to avoid unnecessary grid trading)
