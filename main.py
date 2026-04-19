@@ -42,7 +42,7 @@ SETTLEMENT_DISPLAY_FIELDS = [
     "deviation_net_amount",
 ]
 
-
+# If the forcasted result is not needed, it can be commented out
 def filter_forecast(forecast_rows):
     return [
         {k: row[k] for k in FORECAST_DISPLAY_FIELDS if k in row}
